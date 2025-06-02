@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 img {
@@ -13,7 +14,7 @@ img {
 button {
     color: white;
     background-color: #C51111;
-    border-radius: 3px;
+    border-radius: 5px;
     border: none;
     width: 200px;
     height: 50px;
@@ -25,6 +26,7 @@ button {
 }
 
 body {
+    width: 100vw;
     height: 100vh;
 }
 
@@ -62,7 +64,7 @@ video {
     /* ajusta na horizontal*/
     padding: 100px;
     /*distanciamento interno*/
-    height: 100vh;
+    height: 91vh;
 
 }
 
@@ -164,44 +166,81 @@ textarea {
     position: fixed;
     top: 0;
     width: 100vw;
-    height: 100vh;
+    height: 96vh;
     background: linear-gradient(109deg, rgba(10, 12, 16, 0.99) 15%, rgba(10, 12, 16, 0.7) 50%, rgba(10, 12, 16, 0.99) 85%);
     transition: visiblity 1s ease-in-out;
 
 }
-@media(max-width: 1100px){
-    p {
-        display: none;
-    };
-.caixa-mae{
-    flex-direction: column;
-    justify-content: flex-start;
-    padding: 10px;
-}
-.caixa-principal{
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-.logo-mario-luigi{
-    width: 80vw;
-    height: auto;
-    
-}
-.header img{
-    display: none;
-    
-}
-.header{
-    margin-left: 35px;
-    margin-top: 10px;
-    
-}
-.header a{
-    font-size: 20px;
-}
-}
 
+@media(max-width: 1100px) {
+    .paragrafo {
+        width: 89vw;
+        position: relative;
+        top: 7px;
+        left: 16px;
+    }
+
+    .caixa-mae {
+        flex-direction: column;
+        justify-content: flex-start;
+        padding: 10px;
+    }
+
+
+    .logo-mariobross {
+        position: relative;
+        top: -28px;
+        left: -16px;
+    }
+
+
+
+    .caixa-principal {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .logo-mario-luigi {
+        width: 175px;
+        height: auto;
+        margin: 0;
+        position: relative;
+        position: relative;
+        bottom: 60px;
+        left: 10px;
+
+    }
+
+    .header img {
+        width: 50px;
+        height: auto;
+        margin-left: 10px;
+
+    }
+
+    .header {
+
+        margin: 10px 0 0;
+
+    }
+
+    .header a {
+        font-size: 20px;
+    }
+
+    .buttonShow {
+        position: relative;
+        top: 240px;
+    }
+
+
+    .instagram-logo img{
+        right: 0px;
+        bottom: 65px;
+    }
+
+}
 
 
 
