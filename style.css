@@ -180,6 +180,7 @@ textarea {
         top: 7px;
         left: 16px;
     }
+   
 
     .caixa-mae {
         flex-direction: column;
@@ -227,7 +228,7 @@ textarea {
     }
 
     .header a {
-        font-size: 20px;
+        font-size: 23px;
     }
 
     .buttonShow {
